@@ -1,0 +1,206 @@
+@font-face {
+    font-family: 'halimun';
+    src: url(../font/Halimun.ttf);
+}
+
+body
+{
+    padding: 0px;
+    margin: 0px;
+    background-color: #DBD3CA;
+}
+
+.image
+{
+    width: 100%;
+    height: auto;
+}
+
+.header-image
+{
+    position: relative;
+}
+
+.header-text
+{
+    position: absolute;
+    top: 17vw;
+    left: 8vw;
+    font-family: 'halimun', sans-serif;
+    font-size: 6vw;
+    color: #6C3428;
+}
+
+.header-sub-text
+{
+    position: absolute;
+    font-size: 3vw;
+    top: 25vw;
+    left: 40vw;
+    font-family: 'Fraunces', serif;
+    color: #6C3428;
+}
+
+.pro
+{
+    text-decoration: underline;
+}
+
+.header-bottom-text
+{
+    font-family: 'Garet', sans-serif;
+    font-weight: bold;
+    text-decoration: underline;
+    position: absolute;
+    font-size: 1.5vw;
+    bottom: 5vw;
+    left: 8vw;
+}
+
+.content
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #6C3428;
+    justify-items: center;
+}
+
+#profile
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#skills
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.headshot
+{
+    border-radius: 50%;
+    width: 15vw;
+    margin-top: 10vw;
+    margin-bottom: 5vw;
+}
+
+.content-heading
+{
+    font-size: 3vw;
+}
+
+.contact
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 0px;
+    column-gap: 0px;
+    justify-items: center;
+    width: 50%;
+}
+
+.white
+{
+    color: #FFFFFF;
+}
+
+.intro
+{
+    margin: auto;
+    font-size: 1.5vw;
+    text-align: center;
+}
+
+.dots
+{
+    font-size: 8vw;
+    opacity: 0.1;
+    color: #6C3428;
+}
+
+.skill
+{
+    display: flex;
+    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    width: 50%;
+    margin: auto;
+    row-gap: 3vw;
+}
+
+.skill-image
+{
+    width: 20vw;
+} 
+
+.skill-name
+{   
+    margin-top: 1vw;
+    font-size: 1.5vw;
+}
+
+.skill-description
+{
+    font-size: 1vw;
+}
+
+.btn
+{
+    color: white;
+    background-image: linear-gradient(to bottom, #894434, #371b15);
+    border-color: aliceblue;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+    border-radius: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.5vw;
+    padding: 12px 25px 12px 25px;
+}
+
+a {
+    color: #11999e;
+    font-family: "Montserrat", sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+.footer
+{
+    background-color: #6C3428;
+}
+
+.bottom-container {
+    padding: 50px 0 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    width: 30vw;
+    margin: auto;
+    justify-items: center;
+}
+
+.footer-link
+{
+    color: #FFFFFF;
+    font-size: 1.3rem;
+    margin: 0px;
+    padding: 0px;
+    padding-top: 2vw;
+    text-decoration: none;
+}
+
+.copyright {
+    color: #eaf6f6;
+    font-size: 1rem;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
